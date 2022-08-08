@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header, .secund-section {
+  background-color: rgb(108, 151, 216);
+  
+}
+
+.cabecalho {
+  max-width: 992px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+
+.menu {
+  
+  display: flex;
+  list-style: none;
+  
+}
+
+ul li {
+  margin: 15px;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+.nav {
+  color: black;
+}
+
+.nav:hover {
+  color: white;
+  
+}
+
+
+h1 {
+  font-weight: 800;
+  font-size: 50px;
+  
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  font-size: 30px;
+  
+}
+
+
+
+.introduction {
+  
+  width: 100%;
+  max-width: 992px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+.first-introduction {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.bottom:hover, .bottom-2:hover {
+  background-color: rgb(68, 128, 219);
+  
+}
+
+
+.bottom {
+  display: inline;
+  background-color: rgb(108, 151, 216);
+  color: black;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.bottom-1 {
+  margin-top: 10px;
+  display: block;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  text-align: center;
+  font-size: 16px;
+  color: black;
+}
+
+.bottom-1:hover {
+  color: rgb(108, 151, 216);
+  background-color: rgb(37, 36, 36);
+}
+
+.bottom-2:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(37, 36, 36);
+}
+
+.bottom-2 {
+  
+  width: 100px;
+  background-color: rgb(108, 151, 216);
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  color: black;
+}
+
+.about {
+  
+  display: flex;
+  
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  align-items: center;
+  gap: 80px;
+}
+
+.about-2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
+  
+}
+
+.Serviços {
+  
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  align-items: center;
+}
+
+.type-serviços {
+  display: flex;
+  
+  padding: 20px;
+  gap: 100px;
+  
+  
+}
+
+.img-serviços {
+  
+  
+  width: 150px;
+  padding: 15px;
+}
+
+.text-seviços {
+  display: flex;
+  justify-content: center;
+}
+
+.third-section {
+  
+  
+  
+  width: 100%;
+  max-width: 992px;
+  margin: auto;
+  align-items: center;
+}
+
+.plan {
+  
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  align-items: flex-end;
+  gap: 30px;
+  
+}
+
+.plan-2 {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  
+  border: solid 3px rgb(0, 0, 0);
+  
+}
+
+footer {
+  background-color: rgb(108, 151, 216);
+  color: rgb(247, 244, 244);
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+} /*
+}
